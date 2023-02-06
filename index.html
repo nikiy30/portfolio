@@ -7,25 +7,30 @@
     <title>Nikita Vidal</title>
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.cdnfonts.com/css/timewarner" rel="stylesheet" />
-    <script
-      src="https://kit.fontawesome.com/b778e6d833.js"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      href="https://fonts.cdnfonts.com/css/gilda-display"
+      rel="stylesheet"
+    />
+    <!-- <script src="https://kit.fontawesome.com/b778e6d833.js" crossorigin="anonymous"></script>   -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
     <nav>
       <ul>
         <li><img class="logo" src="./img/white-logo.png" alt="logo" /></li>
         <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#proficiency">Proficiency</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
     </nav>
-    <section class="about">
+
+    <section id="about" class="about">
       <div>
-        <h1>Hi All, I'm Nikita! 👋</h1>
+        <h1
+        >Hi, I'm Nikita! 👋</h1>
         <p>
           I'm a passionate Full Stack Software Developer 🚀 having an experience
           of building Web and Mobile applications with JavaScript / Reactjs /
@@ -33,20 +38,33 @@
         </p>
         <button class="cta hire">Hire Me</button>
         <button class="cta resume">View Resume</button>
+        <div class="social-media">
+          <a class="icon-button github" href="" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
+          <a class="icon-button linkedin" href="" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+          <a class="icon-button twitter" href="" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+          <a class="icon-button envelope" href="" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope"></i></a>
+          <a href="#home_section">home</a>
+
+        </div>
       </div>
+
       <div class="button-group">
         <img
           class="software-girl"
-          src="./img/female-software.png"
+          src="./img/female-software-2.png"
           alt="female software engineer"
         />
       </div>
     </section>
-    <section class="projects">
+
+
+    <!-- projects section -->
+    <section id="projects" class="projects">
       <h1>Projects</h1>
     </section>
-    <section class="skills">
-      <h1>Proficiency</h1>
+    <!-- profieciency section -->
+    <section id="proficiency" class="skills">
+      <h1>Proficiency & Skills</h1>
       <div class="skill">
         <p>Front End Design</p>
         <div class="meter">
@@ -64,17 +82,18 @@
         </div>
       </div>
     </section>
-    <section class="reach">
-      <div>
+    <!-- contact section -->
+    <section id="contact" class="reach row">
+      <div class="column">
         <h1>Reach Out to Me</h1>
         <p>
           Discuss a project or just want to say hi? My Inbox is open for all.
         </p>
-        <p>Miami, Florida</p>
-        <p>Open for opportunities: Yes</p>
+        <p><b>Location: </b>Miami, Florida</p>
+        <b><p>Open for opportunities:</b> Yes</p>
       </div>
 
-      <div>
+      <div class="column">
         <img
           class="headshot"
           src="./img/pro-img.jpeg"
@@ -82,12 +101,19 @@
         />
       </div>
     </section>
+    
+    <section id="home_section">Information About Page</section>
 
     <footer>
       <p>
-        Author: Nikita Vidal<br />
-        <a href="mailto:nikita.vidal30@gmail.com">nikita.vidal30@gmail.com</a>
+        Made with lots of love <img alt="❤️" draggable="false" src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/2764.png" style="height: 1em; width: 1em; margin: 0px 0.05em 0px 0.1em; vertical-align: -0.1em;">  <br /> Nikita Vidal<br />
       </p>
+      <div class="social-media">
+        <a class="icon-button github" href="https://github.com/nikiy30" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
+        <a class="icon-button linkedin" href="https://www.linkedin.com/in/nikita-vidal/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+        <a class="icon-button twitter" href=""><i class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></i></a>
+        <a class="icon-button envelope" href="mailto:nikita.vidal30@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-envelope"></i></a>
+      </div>
     </footer>
   </body>
 </html>
