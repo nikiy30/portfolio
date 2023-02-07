@@ -159,3 +159,43 @@ a {
   display: table;
   clear: both;
 }
+
+.github-card {
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  width: 300px;
+}
+
+.repo-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.repo-description {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.repo-stats {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.repo-stat {
+  color: #999;
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 8px;
+  text-align: center;
+  width: 80px;
+}
+
+.stat-count {
+  font-weight: bold;
+}
