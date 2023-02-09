@@ -89,8 +89,8 @@ section {
 }
 
 .cta {
-  background-color: #ecc6cf;
-  border: 1px solid #ecc6cf;
+  background-color: #1774eb;
+  border: 1px solid #1774eb;
   border-radius: 6px;
   color: #fff;
   cursor: pointer;
@@ -119,7 +119,7 @@ section {
 }
 
 .meter > span {
-  background-color: #ecc6cf;
+  background-color: #1774eb;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 6px;
   border-top-left-radius: 20px;
