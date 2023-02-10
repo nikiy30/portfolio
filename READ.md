@@ -1,1 +1,0 @@
-# Simple Portfolio to challenege my skills
