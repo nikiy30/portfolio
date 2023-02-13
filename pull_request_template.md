@@ -18,7 +18,7 @@ Include screenshots or GIFs that demonstrate the changes made in this pull reque
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings or errors
 - [ ] I have tested my changes on multiple browsers and devices
-- [ ] Did you translate your page
+- [ ] I have translated my components
 
 
 ## Testing Steps
